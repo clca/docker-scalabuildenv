@@ -1,0 +1,7 @@
+#!/bin/bash
+
+################################
+# ARG1: image tag
+# ARG2: sbt version
+################################
+docker build -t $1:$2 . --build-arg SBT_VERSION=$2
