@@ -1,6 +1,8 @@
 FROM anapsix/alpine-java:jdk8
 
 MAINTAINER Claudio <clca@outlook.com>
+# thanks to  @anapsix for the alpine-based Java JDK image
+
 
 ARG SBT_VERSION
 
